@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWTChallenge.API", "ContactsAPI\OWTChallenge.API.csproj", "{003B34B0-8297-4468-A6DD-203F37A57A97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{4402E910-AE75-4597-82CA-234FD727F391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWTChallenge.Infrastructure", "OWTChallenge.Infrastructure\OWTChallenge.Infrastructure.csproj", "{E269BB89-317C-49F8-BD71-799A4DED7FA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWTChallenge.Core", "OWTChallenge.Domain\OWTChallenge.Core.csproj", "{F7EE3BDF-FD06-4030-80B6-6E44D3F9221B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWTChallenge.SharedKernel", "OWTChallenge.SharedKernel\OWTChallenge.SharedKernel.csproj", "{50A1B525-F9DA-46CD-9C6E-25AB13AD67EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOWTChallengeAPI", "TestOWTChallengeAPI\TestOWTChallengeAPI.csproj", "{EA7255B1-9EA7-4596-B8EF-5BD25C084A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED2475A9-86EF-430B-8033-D74F8D069660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003B34B0-8297-4468-A6DD-203F37A57A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003B34B0-8297-4468-A6DD-203F37A57A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003B34B0-8297-4468-A6DD-203F37A57A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003B34B0-8297-4468-A6DD-203F37A57A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E269BB89-317C-49F8-BD71-799A4DED7FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E269BB89-317C-49F8-BD71-799A4DED7FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E269BB89-317C-49F8-BD71-799A4DED7FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E269BB89-317C-49F8-BD71-799A4DED7FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EE3BDF-FD06-4030-80B6-6E44D3F9221B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EE3BDF-FD06-4030-80B6-6E44D3F9221B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EE3BDF-FD06-4030-80B6-6E44D3F9221B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EE3BDF-FD06-4030-80B6-6E44D3F9221B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A1B525-F9DA-46CD-9C6E-25AB13AD67EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A1B525-F9DA-46CD-9C6E-25AB13AD67EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A1B525-F9DA-46CD-9C6E-25AB13AD67EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A1B525-F9DA-46CD-9C6E-25AB13AD67EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7255B1-9EA7-4596-B8EF-5BD25C084A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7255B1-9EA7-4596-B8EF-5BD25C084A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7255B1-9EA7-4596-B8EF-5BD25C084A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7255B1-9EA7-4596-B8EF-5BD25C084A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E269BB89-317C-49F8-BD71-799A4DED7FA7} = {4402E910-AE75-4597-82CA-234FD727F391}
+		{F7EE3BDF-FD06-4030-80B6-6E44D3F9221B} = {4402E910-AE75-4597-82CA-234FD727F391}
+		{50A1B525-F9DA-46CD-9C6E-25AB13AD67EC} = {4402E910-AE75-4597-82CA-234FD727F391}
+		{EA7255B1-9EA7-4596-B8EF-5BD25C084A6C} = {ED2475A9-86EF-430B-8033-D74F8D069660}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB237BFC-CE3B-43A1-8F3F-7FCD2E0ACD7A}
+	EndGlobalSection
+EndGlobal

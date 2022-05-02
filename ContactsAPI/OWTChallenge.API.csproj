@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	 <DocumentationFile>bin\Debug\net6.0\ContactsAPISwaggerDoc.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Repository\**" />
+    <Content Remove="Models\Repository\**" />
+    <EmbeddedResource Remove="Models\Repository\**" />
+    <None Remove="Models\Repository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ContactSkillRel.cs" />
+    <Compile Remove="Models\Level.cs" />
+    <Compile Remove="Models\OWTChallengeContext.cs" />
+    <Compile Remove="Models\Skill.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OWTChallenge.Infrastructure\OWTChallenge.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
